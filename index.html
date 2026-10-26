@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal Yahoo Mail to Gmail integration.">
+  <title>Yahoo Mail Bridge</title>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.7;
+    }
+
+    header {
+      padding: 22px 7%;
+      border-bottom: 1px solid #334155;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .brand {
+      font-size: 19px;
+      font-weight: bold;
+      color: white;
+    }
+
+    a { color: #93c5fd; }
+
+    main {
+      max-width: 850px;
+      margin: 75px auto;
+      padding: 0 24px;
+    }
+
+    h1 {
+      font-size: clamp(34px, 6vw, 54px);
+      line-height: 1.15;
+      color: white;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: white;
+      margin-top: 48px;
+    }
+
+    .subtitle {
+      color: #94a3b8;
+      font-size: 19px;
+    }
+
+    .flow {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      justify-content: center;
+      margin: 45px 0;
+    }
+
+    .box {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 14px;
+      padding: 25px 12px;
+      text-align: center;
+      flex: 1;
+      font-weight: bold;
+    }
+
+    .arrow {
+      color: #60a5fa;
+      font-size: 28px;
+    }
+
+    .features {
+      background: #1e293b;
+      border-radius: 16px;
+      padding: 22px 30px;
+      margin-top: 25px;
+    }
+
+    footer {
+      border-top: 1px solid #334155;
+      padding: 30px;
+      text-align: center;
+      color: #94a3b8;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="brand">✉ Yahoo Mail Bridge</div>
+    <a href="privacy.html">Privacy Policy</a>
+  </header>
+
+  <main>
+    <h1>Your emails.<br>One place.</h1>
+
+    <p class="subtitle">
+      A personal Python-based integration that copies
+      Yahoo Mail messages into Gmail securely using
+      IMAP, OAuth 2.0 and the Gmail API.
+    </p>
+
+    <div class="flow">
+      <div class="box">Yahoo Mail</div>
+      <div class="arrow">→</div>
+      <div class="box">Python Bridge</div>
+      <div class="arrow">→</div>
+      <div class="box">Gmail</div>
+    </div>
+
+    <h2>About the application</h2>
+
+    <p>
+      Yahoo Mail Bridge is a personal automation
+      project designed to consolidate email messages
+      from a Yahoo Mail account into Gmail.
+    </p>
+
+    <p>
+      Imported messages are assigned a dedicated
+      Yahoo label in Gmail, keeping them organized
+      separately from regular Gmail messages.
+    </p>
+
+    <h2>How it works</h2>
+
+    <div class="features">
+      <p>✓ Secure Yahoo Mail access through IMAP over TLS</p>
+      <p>✓ Gmail authorization using Google OAuth 2.0</p>
+      <p>✓ Email import through the official Gmail API</p>
+      <p>✓ Preservation of original messages and attachments</p>
+      <p>✓ Automated execution using GitHub Actions</p>
+    </div>
+
+    <h2>Personal use</h2>
+
+    <p>
+      This application is developed for personal use.
+      It is not a public email forwarding service
+      and does not offer accounts to third parties.
+    </p>
+
+    <p>
+      The application is not affiliated with
+      Google or Yahoo.
+    </p>
+
+    <h2>Privacy and security</h2>
+
+    <p>
+      Read the
+      <a href="privacy.html">Privacy Policy</a>
+      to learn how email data and authorization
+      credentials are handled.
+    </p>
+  </main>
+
+  <footer>
+    Yahoo Mail Bridge — Personal Integration Project
+  </footer>
+</body>
+</html>
