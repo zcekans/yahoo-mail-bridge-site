@@ -95,12 +95,30 @@
       color: #94a3b8;
       font-size: 14px;
     }
+
+    @media (max-width: 500px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .flow { gap: 8px; }
+
+      .box {
+        padding: 16px 6px;
+        font-size: 12px;
+      }
+
+      .arrow { font-size: 18px; }
+    }
   </style>
 </head>
 
 <body>
   <header>
-    <div class="brand">✉ Zcekans Personal Mail Bridge</div>
+    <div class="brand">
+      ✉ Zcekans Personal Mail Bridge
+    </div>
     <a href="privacy.html">Privacy Policy</a>
   </header>
 
@@ -124,9 +142,10 @@
     <h2>About the application</h2>
 
     <p>
-      Yahoo Mail Bridge is a personal automation
-      project designed to consolidate email messages
-      from a Yahoo Mail account into Gmail.
+      Zcekans Personal Mail Bridge is a personal
+      automation project designed to consolidate
+      email messages from a Yahoo Mail account
+      into an authorized Gmail account.
     </p>
 
     <p>
@@ -148,20 +167,22 @@
     <h2>Personal use</h2>
 
     <p>
-      This application is developed for personal use.
-      It is not a public email forwarding service
-      and does not offer accounts to third parties.
+      This application is developed exclusively
+      for personal use. It is not a public email
+      forwarding service and does not offer
+      accounts to third parties.
     </p>
 
     <p>
-      The application is not affiliated with
-      Google or Yahoo.
+      Zcekans Personal Mail Bridge is an
+      independent personal project and is
+      not affiliated with Google or Yahoo.
     </p>
 
     <h2>Privacy and security</h2>
 
     <p>
-      Read the
+      Read our
       <a href="privacy.html">Privacy Policy</a>
       to learn how email data and authorization
       credentials are handled.
@@ -169,7 +190,9 @@
   </main>
 
   <footer>
-    Yahoo Mail Bridge — Personal Integration Project
+    Zcekans Personal Mail Bridge
+    — Personal Integration Project
   </footer>
 </body>
 </html>
+
